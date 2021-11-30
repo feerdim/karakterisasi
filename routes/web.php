@@ -1,10 +1,10 @@
 <?php
 
 // Sementara
-Route::get('del/{user}', 'AdminController@del')->name('del');
+// Route::get('del/{user}', 'AdminController@del')->name('del');
 
-Route::get('liatsemua', 'HistoryController@liatsemua')->name('liatsemua');
-Route::get('dtliatsemua', 'HistoryController@dtliatsemua')->name('dt.liatsemua');
+// Route::get('liatsemua', 'HistoryController@liatsemua')->name('liatsemua');
+// Route::get('dtliatsemua', 'HistoryController@dtliatsemua')->name('dt.liatsemua');
 
 
 Route::get('/', 'HomeController@welcome')->name('welcome');
