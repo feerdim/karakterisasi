@@ -11,7 +11,7 @@
 		<p style="font-size: 0.9rem; margin-top: 0; margin-bottom: 1rem; padding: 0;">
 		    Email &ensp; &ensp;: &ensp;admin@finder.ac.id</p>
 		<p style="font-size: 0.9rem; margin-top: 0; margin-bottom: 1rem; padding: 0;">
-		    WA &ensp; &ensp; &ensp; : &ensp;+62 859 4722 4853<p>
+		    WA &ensp; &ensp; &ensp; : &ensp;+62 878 2309 6491<p>
 		<p style="font-size: 0.9rem; line-height: 1.2rem; margin: 0; padding: 0;">
 		    Alamat &ensp;: &ensp;Jl. Raya Bandung-Sumedang KM. 21 Universitas Padjadjaran Jawa Barat, Indonesia 45363.
 		</p>
