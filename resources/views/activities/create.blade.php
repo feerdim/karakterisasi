@@ -18,17 +18,17 @@
         </div>
         <label for="" class="control-label">Tanggal dan Waktu</label>
         <div class="form-group">
-            <label for="" class="control-label">Pilihan 1</label>
+            <label for="" class="control-label">Pilihan 1*</label>
             {!! Form::text('date1', null, ['class'=>'form-control text-sm', 'id'=>'datepicker1', 'required', 'placeholder'=>'yyyy-mm-dd']) !!}
             {!! Form::select('times1_id', $model->time, null, ['class' => 'form-control text-sm']) !!}
         </div>
         <div class="form-group">
-            <label for="" class="control-label">Pilihan 2</label>
+            <label for="" class="control-label">Pilihan 2*</label>
             {!! Form::text('date2', null, ['class'=>'form-control text-sm', 'id'=>'datepicker2', 'required', 'placeholder'=>'yyyy-mm-dd']) !!}
             {!! Form::select('times2_id', $model->time, null, ['class' => 'form-control text-sm']) !!}
         </div>
         <div class="form-group">
-            <label for="" class="control-label">Pilihan 3</label>
+            <label for="" class="control-label">Pilihan 3*</label>
             {!! Form::text('date3', null, ['class'=>'form-control text-sm', 'id'=>'datepicker3', 'required', 'placeholder'=>'yyyy-mm-dd']) !!}
             {!! Form::select('times3_id', $model->time, null, ['class' => 'form-control text-sm']) !!}
         </div>
@@ -44,15 +44,15 @@
     </div>
     <div class="col-lg-6" style="padding-left:15px;">
         <div class="form-group">
-            <label for="" class="control-label">Tujuan</label>
+            <label for="" class="control-label">Tujuan*</label>
             {!! Form::textarea('purpose', null, ['class'=>'form-control text-sm', 'rows'=>'6', 'required', 'placeholder'=>'Tuliskan tujuan pengamatan Anda']) !!}
         </div>
         <div class="form-group">
-            <label for="" class="control-label">Deskripsi Sampel</label><sup> (2)</sup>
+            <label for="" class="control-label">Deskripsi Sampel*</label><sup> (2)</sup>
             {!! Form::textarea('sample', null, ['class'=>'form-control text-sm', 'rows'=>'6', 'id'=>'sample', 'required', 'placeholder'=>'Deskripsikan dengan jelas mengenai sampel: ukuran partikel, kandungan unsur, dan yang lainnya.']) !!}
         </div>
         <div class="form-group">
-            <label for="" class="control-label">Preparasi Khusus</label><sup> (3)</sup>
+            <label for="" class="control-label">Preparasi Khusus*</label><sup> (3)</sup>
             {!! Form::textarea('unique', null, ['class'=>'form-control text-sm', 'rows'=>'6', 'id'=>'unique', 'required', 'placeholder'=>'Sampel yang membutuhkan preparasi khusus wajib dikonsultasikan terlebih dahulu dengan pihak Print-G']) !!}
         </div>
     </div>
