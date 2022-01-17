@@ -76,7 +76,13 @@ class ActivitiesController extends Controller
             'plans_id' => 'required',
             'purpose' => 'required',
             'sample' => 'required',
-            'unique' => 'required'
+            'unique' => 'required',
+            'date1' => 'required',
+            'times1_id' => 'required',
+            'date2' => 'required',
+            'times2_id' => 'required',
+            'date3' => 'required',
+            'times3_id' => 'required',
         ]);
 
         $order = new Order;
