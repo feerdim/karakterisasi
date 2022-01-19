@@ -215,7 +215,7 @@
 			<p style="font-weight: 600;">Tanggal &nbsp;: {{ date('d F Y', strtotime("$model->date_invoice")) }}</p>
 		</div>
 	</div>
-    <div class="header-2">
+    <div class="footer-2">
         <p>Bersama surat ini kami informasikan penggantian bahan habis pakai untuk pengujian sebagai berikut:</p>
     </div>
 	<table id="table" class="table" width="100%">
