@@ -146,12 +146,12 @@
 		}
 		.header-1{
 			font-size: 14px;
-			line-height: 4px;
+			line-height: 3px;
 			letter-spacing: 1.5px;
 		}
 		.header-2{
 			font-size: 12px;
-			line-height: 4px;
+			line-height: 3px;
 			letter-spacing: 1px;
 		}
 		.footer-1{
@@ -215,7 +215,7 @@
 			<p style="font-weight: 600;">Tanggal &nbsp;: {{ date('d F Y', strtotime("$model->date_invoice")) }}</p>
 		</div>
 	</div>
-    <div class="footer-2" style="padding-top: 0; margin-top: 0;">
+    <div class="footer-2" style="padding-top: 0; margin-top: -2rem;">
         <p>Bersama surat ini kami informasikan penggantian bahan habis pakai untuk pengujian sebagai berikut:</p>
     </div>
 	<table id="table" class="table" width="100%">
