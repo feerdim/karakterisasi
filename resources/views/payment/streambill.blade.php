@@ -254,12 +254,15 @@
 	    </tr>
 	  </tbody>
 	</table>
-	<br><br><br><br><br>
+	<br>
+    <p>Demikian pemberitahuan ini kami sampaikan atas perhatiannya kami ucapkan terima kasih.</p>
+    <br><br><br>
 	<div class="footer-2">
 		{{-- <p style="font-weight: 600;">BANK TRANSFER</p><br> --}}
 		{{-- <p>Nama Bank: BNI Cabang Unpad</p> --}}
 		<div class="row">
-			<p>Nomor Virtual Account: 9880619020200214</p>
+			{{-- <p>Nomor Virtual Account: 9880619020200214</p> --}}
+			<p></p>
 			<p style="padding-left: 13.75cm; font-weight: 600;">ADMIN FiNder</p>
 		</div>
 		{{-- <p style="margin-top: -29px">Nama Virtual Account: KST</p> --}}
