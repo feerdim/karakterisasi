@@ -255,7 +255,7 @@
 	  </tbody>
 	</table>
 	<br><br><br><br>
-	<div class="footer-2">
+	{{-- <div class="footer-2">
 		<p style="font-weight: 600;">BANK TRANSFER</p><br>
 		<p>Nama Bank: BNI Cabang Unpad</p>
 		<div class="row">
@@ -263,7 +263,7 @@
 			<p style="padding-left: 13.75cm; font-weight: 600;">ADMIN FiNder</p>
 		</div>
 		<p style="margin-top: -29px">Nama Virtual Account: KST</p>
-	</div>
+	</div> --}}
 	<br><br>
 	<div class="border-bottom"></div>
 	<p class="center" style="font-size: 8px; padding-top: 4px;"><a class="red" href="https://finder.ac.id">https://finder.ac.id</a> · <a class="red" href="mailto:support.finder@unpad.ac.id">support.finder@unpad.ac.id</a></p>
