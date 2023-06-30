@@ -38,7 +38,9 @@
             Lakukan transfer sesuai dengan jumlah tagihan.
           </li>
           <li class="numbering">
-            Silakan Transfer ke No Rekening <b>988-06190-20200214 KST - BNI</b>
+            {{-- Silakan Transfer ke No Rekening <b>988-06190-20200214 KST - BNI</b> --}}
+            Silakan Transfer ke No Virtual Account <b>988-23405-43000110</b> an <b>FiNder</b> Bank BNI 46 Cabang Unpad. <br/>
+            NPWP : 80.806.099.0-446.000 an Unpad.
           </li>
           <li class="numbering">
             Upload Bukti Transfer berupa gambar dalam format jpg/png.

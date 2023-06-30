@@ -143,7 +143,8 @@
       </div>
       @if($model->status==2|$model->status==3)
       <div class="col-lg-12">
-        <p><b>Silakan Transfer ke No Rekening : 988-06190-20200214 KST - BNI.</b></p>
+        {{-- <p><b>Silakan Transfer ke No Rekening : 988-06190-20200214 KST - BNI.</b></p> --}}
+        <p><b>Silakan Transfer ke No Virtual Account : 988-23405-43000110 FiNder - Bank BNI 46 Cabang Unpad.<br/>NPWP : 80.806.099.0-446.000 an Unpad.</b></p>
         <p><b>Silakan upload bukti transfer Anda dan tunggu sampai admin kami mengkonfirmasi pembayaran Anda.</b></p>
       </div>
       @endif

@@ -295,6 +295,11 @@ class PaymentController extends Controller
             ]);
 
             $payment = new Payment;
+            // $no = Payment::whereHas('approves', function ($query) use ($model) {
+            //     return $query->whereHas('orders', function ($query) use ($model) {
+            //         return $query->where('tools_id', '=', $model->orders->tools->id);
+            //     });
+            // })->get('id')->count();
             $no = Payment::whereHas('approves', function ($query) use ($model) {
                 return $query->whereHas('orders', function ($query) use ($model) {
                     return $query->where('tools_id', '=', $model->orders->tools->id);
@@ -302,7 +307,8 @@ class PaymentController extends Controller
             })->get('id')->count();
             $payment['date_invoice'] = date('Y-m-d');
             $no += 1;
-            $payment['no_invoice'] = $no . '/INV/' . $model->orders->tools->labs->code . '/' . $model->orders->tools->code . date('/m/Y');
+            // $payment['no_invoice'] = $no . '/INV/' . $model->orders->tools->labs->code . '/' . $model->orders->tools->code . date('/m/Y');
+            $payment['no_invoice'] = $no . '/UN6.FiNder/INV' . date('/Y');
 
             if ($model->orders->plans_id == 1) {
                 $payment['status'] = 1;
@@ -765,14 +771,16 @@ class PaymentController extends Controller
     {
         $model = Payment::find($id);
         if ($model->status == 1 || $model->status == 4 || $model->status == 5) {
-            $no = Payment::whereHas('approves', function ($query) use ($model) {
-                return $query->whereHas('orders', function ($query) use ($model) {
-                    return $query->where('tools_id', '=', $model->approves->orders->tools->id);
-                });
-            })->where('no_receipt', '!=', null)->get('id')->count();
+            // $no = Payment::whereHas('approves', function ($query) use ($model) {
+            //     return $query->whereHas('orders', function ($query) use ($model) {
+            //         return $query->where('tools_id', '=', $model->approves->orders->tools->id);
+            //     });
+            // })->where('no_receipt', '!=', null)->get('id')->count();
+            $no = Payment::where('no_receipt', '!=', null)->get('id')->count();
             $payment['date_receipt'] = date('Y-m-d');
             $no += 1;
-            $payment['no_receipt'] = $no . '/RCP/' . $model->approves->orders->tools->labs->code . '/' . $model->approves->orders->tools->code . date('/m/Y');
+            // $payment['no_receipt'] = $no . '/RCP/' . $model->approves->orders->tools->labs->code . '/' . $model->approves->orders->tools->code . date('/m/Y');
+            $payment['no_receipt'] = $no . '/UN6.FiNder/KUI' . date('/Y');
             if ($model->status == 1 || $model->status == 4) {
                 $payment['status'] = 6;
             } else if ($model->status == 5) {
