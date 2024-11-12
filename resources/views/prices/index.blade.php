@@ -4,6 +4,7 @@
 
 @section('content')
 <div style="padding:40px; margin-top:135px">
+  <h1><strong>Daftar Harga</strong></h1>
   <div class="table-responsive">
     @foreach($tool as $t)
       <?php $i = 1;?>

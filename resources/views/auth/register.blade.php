@@ -8,7 +8,7 @@
     <a href="{{ route('welcome') }}">
       <img src="{{ asset('finder.png') }}" height="90" width="90" class="logo_img">
     </a>
-	Register
+	<h1>Register</h1>
 	</span>
 	<p>Silakan klik <a href="https://drive.google.com/file/d/1fenWsPhHWntsP1_WAfjwq42GCMq4D6ua/view?usp=sharing"
 	>di sini</a> untuk mengunduh aturan registrasi akun FINDER. </br>Kemudian silakan pilih role dibawah ini untuk melakukan registrasi.</p>

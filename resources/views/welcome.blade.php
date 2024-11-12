@@ -8,7 +8,7 @@
   <div class="row ml-auto">
     <div class="col-md-6 ml-3">
       <div class="ml-3">
-        <h4 class="masthead-heading">SISTEM INFORMASI<br>PENGELOLAAN LAYANAN</h4>
+        <h1 class="masthead-heading">SISTEM INFORMASI<br>PENGELOLAAN LAYANAN</h1>
         <p>Ingin melakukan karakterisasi? Tapi tidak bisa ke Lab?<br/>Kirim sampel. Hasil kami kirim ke alamat email Anda.</p>
         <a type="button" href="{{ route('login') }}" class="btn btn-outline-danger btn-sm">Login</a>&nbsp;
         <a type="button" href="{{ route('register') }}" class="btn btn-outline-danger btn-sm">Register</a>
@@ -23,7 +23,7 @@
 </header>
 
 <div class="container page-section">
-  <h4 class="page-section-heading text-center text-uppercase text-dark">Informasi Layanan</h4>
+  <h2 class="page-section-heading text-center text-uppercase text-dark">Informasi Layanan</h2>
   <div class="row ml-auto">
     <ol>
       <ul>

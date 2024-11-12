@@ -8,7 +8,7 @@
         <a href="{{ route('welcome') }}">
             <img src="{{ asset('finder.png') }}" height="90" width="90" class="logo_img">
         </a>
-        Login FINDER
+        <h1>Login FINDER</h1>
     </span>
     <form class="login100-form validate-form" method="POST" action="{{ route('login') }}">
         @csrf

@@ -4,7 +4,7 @@
 
 @section('content')
 <div style="padding:40px; margin-top:135px">
-  <h3><strong>Daftar Alat</strong></h3>
+  <h1><strong>Daftar Alat</strong></h1>
   <table id="table" class="table table-striped table-bordered table-hover" ></table>
 </div>
 @endsection
